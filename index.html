@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code7 Live Editor</title>
+    <link rel="icon" href="icons8_puzzle_1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.css" type="text/css"
+        media="all" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1 style="color: #00c21a;">Code7</h1>
+        <div class="theme-selector">
+            <div class="custom-dropdown">
+                <select id="themeSelect" class="styled-select">
+                    <option value="ambiance">Ambiance</option>
+                    <option value="chaos">Chaos</option>
+                    <option value="clouds">Clouds</option>
+                    <option value="cobalt">Cobalt</option>
+                    <option value="dracula">Dracula</option>
+                    <option value="idle_fingers">Idle Fingers</option>
+                    <option value="merbivore">Merbivore</option>
+                    <option value="merbivore_soft">Merbivore Soft</option>
+                    <option value="mono_industrial">Mono Industrial</option>
+                    <option value="monokai">Monokai</option>
+                    <option value="pastel_on_dark">Pastel on Dark</option>
+                    <option value="solarized_dark">Solarized Dark</option>
+                    <option value="solarized_light">Solarized Light</option>
+                    <option value="terminal">Terminal</option>
+                    <option value="tomorrow_night">Tomorrow Night</option>
+                    <option value="tomorrow_night_blue">Tomorrow Night Blue</option>
+                    <option value="tomorrow_night_bright">Tomorrow Night Bright</option>
+                    <option value="tomorrow_night_eighties">Tomorrow Night Eighties</option>
+                    <option value="twilight">Twilight</option>
+                    <option value="vibrant_ink">Vibrant Ink</option>
+                </select>
+            </div>
+        </div>
+        <div class="custom-container">
+            <label for="toggleAutocomplete">AutoComplete</label>
+            <input type="checkbox" id="toggleAutocomplete">
+        </div>
+        <button id="clearButton">Clear Editors</button>
+        <button id="loadButton">Demo Code</button>
+    </div>
+    <div class="container">
+        <div class="editor-container mycont" id="editorContainer">
+            <div class="code-editor">
+                <div id="editor" class="editor">Start typing your HTML code here...</div>
+            </div>
+            <div style="height: 5px;"></div>
+            <div class="css-editor">
+                <div id="cssEditor" class="editor">Start typing your CSS code here...</div>
+            </div>
+        </div>
+        <div class="result-container">
+            <iframe class="result" id="resultFrame"></iframe>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        &copy; <span id="currentYear"></span> Omar Abi Farraj - <a
+            href="mailto:omar.7tech@gmail.com">omar.7tech@gmail.com</a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ext-language_tools.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/theme-chrome.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/mode-html.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/mode-css.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/updateYear.js"></script>
+    <script src="js/updateTheme.js">
+
+    </script>
+
+   <script src="js/autoload.js"></script>
+        
+    
+    
+</body>
+
+</html>
