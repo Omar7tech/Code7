@@ -1,3 +1,7 @@
+https://code7-v2.netlify.app/
+
+
+
 The Code7 Live Editor is a web application that provides users with a dynamic and interactive environment for writing, editing, and previewing HTML and CSS code in real-time.
 It features a user-friendly interface with separate editors for HTML and CSS, allowing developers to seamlessly create and modify code snippets. 
 The live preview feature instantly shows the result of the code, making it an excellent tool for web development and design.
