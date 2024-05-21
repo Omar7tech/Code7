@@ -19,9 +19,13 @@ The **Code7 Live Editor** is a powerful web application designed for web develop
 4. **Theme Customization:** Choose a theme from the dropdown to customize the editor's appearance.
 5. **Autocomplete:** Enable or disable autocomplete for a personalized coding experience.
 
+
+
 ## Developer
 
 - **Name:** Omar Abi Farraj
 - **Email:** omar.7tech@gmail.com
 
 For an immersive experience, check out the [live demo](https://code7-v2.netlify.app/).
+
+![Image Description](https://github.com/Omar7tech/screenshots/blob/main/omar7tech_img.png)
